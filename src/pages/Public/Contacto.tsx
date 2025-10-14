@@ -1,5 +1,5 @@
 import { Box, Card, CardContent, Typography, TextField, Button, IconButton } from "@mui/material";
-import FacebookIcon from "@mui/icons-material/Facebook";
+//import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import { useState } from "react";
@@ -14,7 +14,7 @@ export default function ContactoPage() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    const numero = "5491123456789"; // Tu número de WhatsApp con código de país
+    const numero = "56962191794"; // Tu número de WhatsApp con código de país
     const mensaje = `Nombre: ${form.nombre}%0AEmail: ${form.email}%0AMensaje: ${form.mensaje}`;
 
     // Abrir WhatsApp en nueva ventana con mensaje prellenado
@@ -134,21 +134,14 @@ export default function ContactoPage() {
           }}
         >
           <IconButton
-            href="https://www.facebook.com"
-            target="_blank"
-            sx={{ color: "#F28CA4", fontSize: 70 }}
-          >
-            <FacebookIcon fontSize="inherit" />
-          </IconButton>
-          <IconButton
-            href="https://www.instagram.com"
+            href="https://www.instagram.com/sweet.moment.candy"
             target="_blank"
             sx={{ color: "#F28CA4", fontSize: 70 }}
           >
             <InstagramIcon fontSize="inherit" />
           </IconButton>
           <IconButton
-            href="https://wa.me/5491123456789"
+            href="https://wa.me/56962191794"
             target="_blank"
             sx={{ color: "#F28CA4", fontSize: 70 }}
           >
