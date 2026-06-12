@@ -21,7 +21,7 @@ export default function Galeria() {
             zIndex: 1,
           }}
         >
-          Galeria
+          Galerías
         </Typography>
 
       <Box

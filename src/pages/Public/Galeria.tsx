@@ -158,7 +158,7 @@ export default function GaleriaPage() {
             mb: 4,
           }}
         >
-          Galería
+          Galerías
         </Typography>
 
         <Box
